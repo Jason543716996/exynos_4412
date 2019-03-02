@@ -1,0 +1,11 @@
+
+all:
+	arm-linux-gcc -c start.S
+	arm-linux-gcc -c main.c
+#-Ttext指定了代码段的起始地址为0x50000000.
+	arm-linux-ld start.o main.o -Ttext=0x50000000 -o arm
+#从arm可执行文件中拷贝出除过头信息以外的二进制可执行文件到arm.bin
+	arm-linux-objcopy -O binary arm arm.bin
+clean:
+	rm -f start.o main.o arm.*
+

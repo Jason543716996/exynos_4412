@@ -1,0 +1,219 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARMBARE_H_	include/lib.h	2;"	d
+ASM	Makefile	/^ASM		:= start.o$/;"	m
+BG	main.c	8;"	d	file:
+BIN	Makefile	/^BIN		:= $(TARGET).bin$/;"	m
+CC	Makefile	/^CC		:= $(CROSS_COMPILE)gcc$/;"	m
+CLK_DIV_LCD	include/lcd.h	91;"	d
+CLK_SRC_LCD0	include/lcd.h	92;"	d
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE	:= arm-linux-$/;"	m
+C_OBJS	Makefile	/^C_OBJS		:= main.o lcd.o lib.o pwm.o backlight.o font.o$/;"	m
+DOWN	include/key.h	/^enum {DOWN, UP};$/;"	e	enum:__anon1
+END	include/backlight.h	14;"	d
+FONTDATAMAX	include/font.h	6;"	d
+FONT_H_	include/font.h	2;"	d
+FRAMBUFF0	include/lcd.h	100;"	d
+GPA0CON	include/uart.h	6;"	d
+GPF0CON	include/lcd.h	7;"	d
+GPF1CON	include/lcd.h	8;"	d
+GPF2CON	include/lcd.h	9;"	d
+GPF3CON	include/lcd.h	10;"	d
+GPM4CON	include/led.h	6;"	d
+GPM4DAT	include/led.h	7;"	d
+GPX1CON	include/backlight.h	7;"	d
+GPX1DAT	include/backlight.h	6;"	d
+GPX3CON	include/key.h	10;"	d
+GPX3DAT	include/key.h	11;"	d
+HIGH	include/font.h	7;"	d
+KEY_H_	include/key.h	2;"	d
+LCDBLK_CFG	include/lcd.h	90;"	d
+LCD_H_	include/lcd.h	2;"	d
+LD	Makefile	/^LD		:= $(CROSS_COMPILE)ld$/;"	m
+LD_ADD	Makefile	/^LD_ADD		:= 0x50000000$/;"	m
+LED_H_	include/led.h	2;"	d
+MILLET_PWM_H	include/pwm.h	2;"	d
+OBJCOPY	Makefile	/^OBJCOPY		:= $(CROSS_COMPILE)objcopy$/;"	m
+PWM_BASE	include/pwm.h	8;"	d
+RED	main.c	7;"	d	file:
+REQUEST	include/backlight.h	13;"	d
+SHADOWCON	include/lcd.h	26;"	d
+START	include/backlight.h	12;"	d
+TARGET	Makefile	/^TARGET		:= arm$/;"	m
+TCFG0	include/pwm.h	10;"	d
+TCFG1	include/pwm.h	11;"	d
+TCMPB0	include/pwm.h	14;"	d
+TCMPB1	include/pwm.h	17;"	d
+TCMPB2	include/pwm.h	20;"	d
+TCMPB3	include/pwm.h	23;"	d
+TCNTB0	include/pwm.h	13;"	d
+TCNTB1	include/pwm.h	16;"	d
+TCNTB2	include/pwm.h	19;"	d
+TCNTB3	include/pwm.h	22;"	d
+TCNTB4	include/pwm.h	25;"	d
+TCNTO0	include/pwm.h	15;"	d
+TCNTO1	include/pwm.h	18;"	d
+TCNTO2	include/pwm.h	21;"	d
+TCNTO3	include/pwm.h	24;"	d
+TCNTO4	include/pwm.h	26;"	d
+TCON	include/pwm.h	12;"	d
+TINT_CSTAT	include/pwm.h	27;"	d
+UART_H_	include/uart.h	2;"	d
+UBRDIV0	include/uart.h	18;"	d
+UCON0	include/uart.h	9;"	d
+UERSTAT0	include/uart.h	13;"	d
+UFCON0	include/uart.h	10;"	d
+UFRACVAL0	include/uart.h	19;"	d
+UFSTAT0	include/uart.h	14;"	d
+UINTM0	include/uart.h	22;"	d
+UINTP0	include/uart.h	20;"	d
+UINTSP0	include/uart.h	21;"	d
+ULCON0	include/uart.h	8;"	d
+UMCON0	include/uart.h	11;"	d
+UMSTAT0	include/uart.h	15;"	d
+UP	include/key.h	/^enum {DOWN, UP};$/;"	e	enum:__anon1
+URXH0	include/uart.h	17;"	d
+UTRSTAT0	include/uart.h	12;"	d
+UTXH0	include/uart.h	16;"	d
+VIDCON0	include/lcd.h	13;"	d
+VIDCON1	include/lcd.h	14;"	d
+VIDCON2	include/lcd.h	15;"	d
+VIDCON3	include/lcd.h	16;"	d
+VIDINTCON0	include/lcd.h	80;"	d
+VIDINTCON1	include/lcd.h	81;"	d
+VIDOSD0A	include/lcd.h	28;"	d
+VIDOSD0B	include/lcd.h	29;"	d
+VIDOSD0C	include/lcd.h	30;"	d
+VIDOSD1A	include/lcd.h	31;"	d
+VIDOSD1B	include/lcd.h	32;"	d
+VIDOSD1C	include/lcd.h	33;"	d
+VIDOSD1D	include/lcd.h	34;"	d
+VIDOSD2A	include/lcd.h	35;"	d
+VIDOSD2B	include/lcd.h	36;"	d
+VIDOSD2C	include/lcd.h	37;"	d
+VIDOSD2D	include/lcd.h	38;"	d
+VIDOSD3A	include/lcd.h	39;"	d
+VIDOSD3B	include/lcd.h	40;"	d
+VIDOSD3C	include/lcd.h	41;"	d
+VIDOSD4A	include/lcd.h	42;"	d
+VIDOSD4B	include/lcd.h	43;"	d
+VIDOSD4C	include/lcd.h	44;"	d
+VIDTCON0	include/lcd.h	17;"	d
+VIDTCON1	include/lcd.h	18;"	d
+VIDTCON2	include/lcd.h	19;"	d
+VIDTCON3	include/lcd.h	20;"	d
+VIDW00ADD0B0	include/lcd.h	45;"	d
+VIDW00ADD0B1	include/lcd.h	46;"	d
+VIDW00ADD0B2	include/lcd.h	47;"	d
+VIDW00ADD1B0	include/lcd.h	60;"	d
+VIDW00ADD1B1	include/lcd.h	61;"	d
+VIDW00ADD1B2	include/lcd.h	62;"	d
+VIDW00ADD2	include/lcd.h	75;"	d
+VIDW01ADD0B0	include/lcd.h	48;"	d
+VIDW01ADD0B1	include/lcd.h	49;"	d
+VIDW01ADD0B2	include/lcd.h	50;"	d
+VIDW01ADD1B0	include/lcd.h	63;"	d
+VIDW01ADD1B1	include/lcd.h	64;"	d
+VIDW01ADD1B2	include/lcd.h	65;"	d
+VIDW01ADD2	include/lcd.h	76;"	d
+VIDW02ADD0B0	include/lcd.h	51;"	d
+VIDW02ADD0B1	include/lcd.h	52;"	d
+VIDW02ADD0B2	include/lcd.h	53;"	d
+VIDW02ADD1B0	include/lcd.h	66;"	d
+VIDW02ADD1B1	include/lcd.h	67;"	d
+VIDW02ADD1B2	include/lcd.h	68;"	d
+VIDW02ADD2	include/lcd.h	77;"	d
+VIDW03ADD0B0	include/lcd.h	54;"	d
+VIDW03ADD0B1	include/lcd.h	55;"	d
+VIDW03ADD0B2	include/lcd.h	56;"	d
+VIDW03ADD1B0	include/lcd.h	69;"	d
+VIDW03ADD1B1	include/lcd.h	70;"	d
+VIDW03ADD1B2	include/lcd.h	71;"	d
+VIDW03ADD2	include/lcd.h	78;"	d
+VIDW04ADD0B0	include/lcd.h	57;"	d
+VIDW04ADD0B1	include/lcd.h	58;"	d
+VIDW04ADD0B2	include/lcd.h	59;"	d
+VIDW04ADD1B0	include/lcd.h	72;"	d
+VIDW04ADD1B1	include/lcd.h	73;"	d
+VIDW04ADD1B2	include/lcd.h	74;"	d
+VIDW04ADD2	include/lcd.h	79;"	d
+W1KEYCON0	include/lcd.h	82;"	d
+WIDTH	include/font.h	8;"	d
+WINCHMAP2	include/lcd.h	27;"	d
+WINCON0	include/lcd.h	21;"	d
+WINCON1	include/lcd.h	22;"	d
+WINCON2	include/lcd.h	23;"	d
+WINCON3	include/lcd.h	24;"	d
+WINCON4	include/lcd.h	25;"	d
+_ANSI_STDARG_H_	include/stdarg.h	32;"	d
+_BSD_VA_LIST	include/stdarg.h	67;"	d
+_STDARG_H	include/stdarg.h	31;"	d
+_VA_LIST	include/stdarg.h	111;"	d
+_VA_LIST	include/stdarg.h	63;"	d
+_VA_LIST	include/stdarg.h	79;"	d
+_VA_LIST_	include/stdarg.h	108;"	d
+_VA_LIST_	include/stdarg.h	76;"	d
+_VA_LIST_DEFINED	include/stdarg.h	114;"	d
+_VA_LIST_T_H	include/stdarg.h	117;"	d
+__BACKLIGHT_H	include/backlight.h	2;"	d
+__GNUC_VA_LIST	include/stdarg.h	39;"	d
+__VA_LIST	include/stdarg.h	84;"	d
+__gnuc_va_list	include/stdarg.h	/^typedef __builtin_va_list __gnuc_va_list;$/;"	t
+__need___va_list	include/stdarg.h	34;"	d
+__va_copy	include/stdarg.h	53;"	d
+__va_list__	include/stdarg.h	120;"	d
+_start	start.S	/^_start:$/;"	l
+check_key_dnup	key.c	/^void check_key_dnup(void (*do_key)(int stat, int num))$/;"	f
+clr_screen	lcd.c	/^void clr_screen(int col)$/;"	f
+crc8	include/backlight.h	10;"	d
+crc8_init	include/backlight.h	9;"	d
+crc8_tab	backlight.c	/^static const unsigned char crc8_tab[] = {$/;"	v	file:
+display_char	font.c	/^void display_char(int x, int y, int n, int col)$/;"	f
+display_string	font.c	/^void display_string(int x, int y, const char *str, int col)$/;"	f
+draw_point	lcd.c	/^void draw_point(int x, int y, int col)$/;"	f
+fimd0_clock_select	lcd.c	/^static void fimd0_clock_select(void)$/;"	f	file:
+font	font.c	/^static const unsigned char font[FONTDATAMAX] = {$/;"	v	file:
+io_bit_count	backlight.c	/^static int io_bit_count;$/;"	v	file:
+io_data	backlight.c	/^static int io_data;$/;"	v	file:
+ioread32	lib.c	/^u32 ioread32(u32 reg)$/;"	f
+ioread8	lib.c	/^u8 ioread8(u32 reg)$/;"	f
+iowrite32	lib.c	/^void iowrite32(u32 val, u32 reg)$/;"	f
+iowrite8	lib.c	/^void iowrite8(u8 val, u32 reg)$/;"	f
+key_init	key.c	/^void key_init(void)$/;"	f
+lcd_gpio_set	lcd.c	/^static void lcd_gpio_set(void)$/;"	f	file:
+lcd_init	lcd.c	/^void lcd_init(void)$/;"	f
+led_alloff	led.c	/^void led_alloff(void)$/;"	f
+led_allon	led.c	/^void led_allon(void)$/;"	f
+led_init	led.c	/^void led_init(void)$/;"	f
+led_off	led.c	/^void led_off(u8 n)$/;"	f
+led_on	led.c	/^void led_on(u8 n)$/;"	f
+main	main.c	/^int main(void)$/;"	f
+printf	include/lib.h	4;"	d
+set_backlight_start	backlight.c	/^void set_backlight_start(int backlight)$/;"	f
+set_gpx1_2_high	backlight.c	/^void set_gpx1_2_high(void)$/;"	f
+set_gpx1_2_low	backlight.c	/^void set_gpx1_2_low(void)$/;"	f
+stop_timer1	pwm.c	/^void stop_timer1(void)$/;"	f
+timer1_init	pwm.c	/^void timer1_init(int cycle)$/;"	f
+u16	include/lib.h	/^typedef unsigned short u16;$/;"	t
+u32	include/lib.h	/^typedef unsigned int u32;$/;"	t
+u8	include/lib.h	/^typedef unsigned char u8;$/;"	t
+uart0_init	uart.c	/^void uart0_init(void)$/;"	f
+udelay	include/lib.h	5;"	d
+ugetchar	uart.c	/^int ugetchar(void)$/;"	f
+ugets	uart.c	/^char *ugets(char *b)$/;"	f
+uprintf	uart.c	/^void uprintf(const char *fmt, ...)$/;"	f
+uputchar	uart.c	/^void uputchar(int c)$/;"	f
+uputs	uart.c	/^void uputs(const char *s)$/;"	f
+va_arg	include/stdarg.h	49;"	d
+va_copy	include/stdarg.h	51;"	d
+va_end	include/stdarg.h	48;"	d
+va_list	include/stdarg.h	/^typedef __gnuc_va_list va_list;$/;"	t
+va_start	include/stdarg.h	47;"	d
+wait_receive_buffer_valid	uart.c	/^static void wait_receive_buffer_valid(void)$/;"	f	file:
+wait_timeout	backlight.c	/^void wait_timeout(void)$/;"	f
+wait_transmit_buffer_empty	uart.c	/^static void wait_transmit_buffer_empty(void)$/;"	f	file:
+window0_init	lcd.c	/^static void window0_init(void)$/;"	f	file:
